@@ -53,7 +53,7 @@ public class GuavaTest {
             xmlMap.put("c","collection");
             xmlMap.put("o","object");
             reader.getDocumentFactory().setXPathNamespaceURIs(xmlMap);
-            Document document = reader.read(new File("src/main/resources/ed.xml"));
+            Document document = reader.read(new File("src/main/resources/ID0.xml"));
             // 通过document对象获取根节点bookstore
             Element rootElement = document.getRootElement();
 //            System.out.println(rootElement.getName());
@@ -75,7 +75,7 @@ public class GuavaTest {
             //设置输出编码
             format.setEncoding("UTF-8");
             //创建需要写入的File对象
-            File file = new File("src/main/resources/ed2.xml");
+            File file = new File("src/main/resources/ID02.xml");
             //生成XMLWriter对象，构造函数中的参数为需要输出的文件流和格式
             XMLWriter writer = new XMLWriter(new FileOutputStream(file), format);
             //开始写入，write方法中包含上面创建的Document对象
