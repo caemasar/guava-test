@@ -30,3 +30,5 @@ demo-gen/src/main/resources/conf.xml
 /educationManageWeb/src/main/webapp/node_modules
 overlays/
 .dubbo/
+
+src/main/resources/no
